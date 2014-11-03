@@ -1,5 +1,3 @@
-alert("LOADING");
-
 var PREFS;
 var PREFS_KEY = "housePrefs";
 var CSS_READ = "pref_read";
