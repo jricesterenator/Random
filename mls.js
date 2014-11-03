@@ -56,13 +56,13 @@ function savePref(type, mlsid, keep) {
 
 }
 
-module.exports = { getPrefsEntry: function(mlsid) {
+function getPrefsEntry(mlsid) {
     var res = PREFS.mls[mlsid];
     if(res === undefined) {
         return {};
     }
     return res;
-}                  };
+}
 
 //###########################################
 // The CSS styles
